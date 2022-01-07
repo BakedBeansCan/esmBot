@@ -14,4 +14,6 @@ If you want to self-host the bot, a guide can be found [here](https://github.com
 ## Credits
 Icon by [Steel](https://twitter.com/MintBurrow).
 All images, sounds, and fonts are copyright of their respective owners.
-haha funny modifications go brrrr
+
+## Why the fork tho?
+Just wanted to mess with self hosting the bot on a small friend group server
