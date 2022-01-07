@@ -16,3 +16,6 @@ If you want to self-host the bot, a guide can be found [here](https://github.com
 ## Credits
 Icon by [Steel](https://twitter.com/MintBurrow).
 All images, sounds, and fonts are copyright of their respective owners.
+
+## Whats this fork for exactly??
+Just for a small friend group server since we get a bit tired of the random lengthy downtimes
