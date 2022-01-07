@@ -31,7 +31,7 @@
     "emoji-regex": "^10.0.0",
     "eris": "^0.16.1",
     "eris-fleet": "github:esmBot/eris-fleet#master",
-    "file-type": "^16.1.0",
+    "file-type": "github:sindresorhus/file-type",
     "format-duration": "^1.4.0",
     "lavacord": "^1.1.9",
     "node-addon-api": "^4.2.0",
