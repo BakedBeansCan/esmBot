@@ -1,7 +1,7 @@
 import { play } from "../../utils/soundplayer.js";
 import MusicCommand from "../../classes/musicCommand.js";
 
-class BruhCommand extends MusicCommand {
+class BangCommand extends MusicCommand {
   async run() {
     return await play(this.client, "./assets/audio/bang.mp3", this.message);
   }
@@ -10,4 +10,4 @@ class BruhCommand extends MusicCommand {
   static aliases = [""];
 }
 
-export default BruhCommand;
+export default BangCommand;
