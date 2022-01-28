@@ -40,3 +40,4 @@ migratedb.js
 processed.txt
 data.sqlite
 .cache
+pm2start.sh
