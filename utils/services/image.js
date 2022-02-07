@@ -4,6 +4,11 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { Worker } from "worker_threads";
+import { createRequire } from "module";
+
+// only requiring this to work around an issue regarding worker threads
+const nodeRequire = createRequire(import.meta.url);
+nodeRequire(`../../build/${process.env.DEBUG && process.env.DEBUG === "true" ? "Debug" : "Release"}/image.node`);
 
 import ImageConnection from "../imageConnection.js";
 
@@ -125,6 +130,7 @@ class ImageWorker extends BaseServiceWorker {
           if (i < 2 && e === "Request ended prematurely due to a closed connection") {
             continue;
           } else {
+            if (e === "No available servers" && i >= 2) e = "Request ended prematurely due to a closed connection";
             throw e;
           }
         }
