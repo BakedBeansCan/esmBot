@@ -1,4 +1,4 @@
-# <img src="https://github.com/BakedBeansCan/esmBot/raw/master/radio.png" width="128"> esmBot-custom (fork)
+# <img src="https://github.com/BakedBeansCan/esmBot/raw/master/radio.png" width="128"> esmBot-custom 
 
 esmBot is an easily-extendable, multipurpose, and entertainment-focused Discord bot made using [Eris](https://abal.moe/Eris/) with image, music, and utility commands, alongside many others.
 
@@ -14,5 +14,5 @@ Icon by [Steel](https://twitter.com/MintBurrow).
 All images, sounds, and fonts are copyright of their respective owners.
 
 ## Why the fork tho?
-Just wanted to mess with self hosting the bot on a small friend group server
+Just wanted to mess with self hosting the bot on a small friend group server, even if I have no idea what I'm doing half the time
 
